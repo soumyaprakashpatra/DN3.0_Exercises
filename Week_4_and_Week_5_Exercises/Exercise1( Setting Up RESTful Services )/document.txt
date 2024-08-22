@@ -1,0 +1,35 @@
+1.	Spring Boot Project Setup
+
+A Spring Boot project is created using Spring Initializr, including the dependencies: Spring Web, Spring Boot DevTools, and Lombok.
+
+2.	Project Structure:
+-   BookstoreAPI
+    ├── src
+    │   ├── main
+    │   │   ├── java
+    │   │   │   └── com
+    │   │   │       └── example
+    │   │   │           └── bookstoreapi
+    │   │   │               ├── BookstoreApiApplication.java
+    │   │   │               ├── controller
+    │   │   │               ├── model
+    │   │   │               └── repository
+    │   │   └── resources
+    │   │       ├── application.properties
+    └── pom.xml
+
+3.	
+What's New in Spring Boot 3:
+
+Spring Boot 3 introduces several new features and improvements, including:
+
+a.Java 17 Baseline: Spring Boot 3 now requires Java 17 as the minimum version.
+b.GraalVM Native Image Support: Enhanced support for building native images with GraalVM.
+c.Jakarta EE 9: Migration from the javax.* namespace to jakarta.*.
+d.Improved Observability: Upgraded metrics and tracing capabilities for better observability.
+e.Spring Framework 6: Built on top of Spring Framework 6, which brings various enhancements and new features.
+f.Kotlin Coroutines Support: Better integration and support for Kotlin coroutines.
+g.Enhanced Docker Support: Improved capabilities for building and running Docker images.
+h.New Actuator Endpoints: Additional endpoints to enhance application monitoring.
+i.Configuration Improvements: Simplified configuration properties and profile management.
+j.These are some of the key highlights, along with various minor improvements and bug fixes.

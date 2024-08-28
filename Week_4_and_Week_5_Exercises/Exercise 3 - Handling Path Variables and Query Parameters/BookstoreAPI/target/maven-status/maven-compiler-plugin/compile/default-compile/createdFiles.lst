@@ -1,0 +1,6 @@
+com\example\BookstoreAPI\service\BookService.class
+com\example\BookstoreAPI\BookstoreApplication.class
+com\example\BookstoreAPI\repository\BookRepository.class
+com\example\BookstoreAPI\service\impl\BookServiceImpl.class
+com\example\BookstoreAPI\entity\Book.class
+com\example\BookstoreAPI\controller\BookController.class
